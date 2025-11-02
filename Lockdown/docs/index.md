@@ -2,6 +2,8 @@
 
 From laser turrets to force fields, Lockdown adds security-themed blocks/items to secure your base against intruders!
 
+![Preview](preview.png)
+
 ## Version Compatibility
 
 This datapack uses overlays to support multiple versions of the game with a single ZIP file.  However, some features will not be backported to older versions.  Below is a table showing what features are available for each game version.
