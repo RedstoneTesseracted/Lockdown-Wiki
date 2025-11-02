@@ -1,26 +1,27 @@
 site_name: Lockdown Wiki
 nav:
   - Home: index.md
-  - Features:
+  - Devices:
     - features/alarm_light.md
     - features/big_button.md
     - features/drone.md
     - features/turret.md
-    - features/durability_upgrade.md
     - features/encoding_station.md
-    - features/flamethrower_upgrade.md
     - features/force_field_projector.md
-    - features/key.md
     - features/keycard.md
     - features/keycard_reader.md
     - features/klaxon.md
     - features/laser_projector.md
-    - features/legacy_wand.md
     - features/mob_detector.md
     - features/player_detector.md
-    - features/range_upgrade.md
     - features/wireless_receiver.md
     - features/wireless_transmitter.md
+  - Items:
+    - features/durability_upgrade.md
+    - features/flamethrower_upgrade.md
+    - features/key.md
+    - features/legacy_wand.md
+    - features/range_upgrade.md
   - Mechanics:
     - mechanics/channels.md
   - Removed Features:
