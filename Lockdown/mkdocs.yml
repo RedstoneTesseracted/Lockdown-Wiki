@@ -19,9 +19,9 @@ nav:
   - Items:
     - features/durability_upgrade.md
     - features/flamethrower_upgrade.md
+    - features/range_upgrade.md
     - features/key.md
     - features/legacy_wand.md
-    - features/range_upgrade.md
   - Mechanics:
     - mechanics/channels.md
   - Removed Features:
