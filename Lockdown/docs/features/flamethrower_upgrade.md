@@ -2,7 +2,7 @@
 
 ![flamethrower upgrade](item/flamethrower_upgrade.png)
 
-The flamethrower upgrade allows [drones](drone.md) and [turrets](turret.md) to shoot fireballs instead of a laser.  Up to
+The flamethrower upgrade allows [drones](drone.md) to shoot fireballs and [turrets](turret.md) to shoot bolts of fire.  Up to
 *one* flamethrower upgrade may be applied to any given [drone](drone.md)/[turret](turret.md).
 
 Upgrades are applied by right-clicking on the target entity.
@@ -26,5 +26,5 @@ Additionally, upgrades were applied by throwing them at [drones](drone.md)/[turr
 | Version | Changes |
 | ------- | ------- |
 | R2      | • Added flamethrower upgrade |
-| R3      | • Now causes drones/turrets to shoot fireballs instead of lighting fires<br>• Now applied by right-clicking<br>• No longer mutually-exclusive with other upgrades |
+| R3      | • Now causes drones to shoot fireballs instead of lighting fires<br>• Now applied by right-clicking<br>• No longer mutually-exclusive with other upgrades |
 
