@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>Defense Drone - Lockdown Wiki</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Defense Drone";
+        var mkdocs_page_input_path = "features\\drone.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> Lockdown Wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Devices</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../alarm_light/">Alarm Light</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../big_button/">Big Button</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Defense Drone</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#encoding">Encoding</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#crafting">Crafting</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#pre-r3-behavior">Pre-R3 Behavior</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#unusedoperator-only-features">Unused/Operator-Only Features</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#dyeable-drones">Dyeable Drones</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#berzerker-drones">Berzerker Drones</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#history">History</a>
+    </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../turret/">Defense Turret</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../encoding_station/">Encoding Station</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../force_field_projector/">Force Field Projector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../keycard/">Keycard</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../keycard_reader/">Keycard Reader</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../klaxon/">Klaxon</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../laser_projector/">Laser Projector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../mob_detector/">Mob Detector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../player_detector/">Player Detector</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../wireless_receiver/">Wireless Receiver</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../wireless_transmitter/">Wireless Transmitter</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Items</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../durability_upgrade/">Durability Upgrade</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../flamethrower_upgrade/">Flamethrower Upgrade</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../range_upgrade/">Range Upgrade</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../key/">Key</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../legacy_wand/">Legacy Wand</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Mechanics</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../mechanics/channels/">Channels</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Removed Features</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../control_tower/">Control Tower</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../control_tower_upgrade/">Control Tower Upgrade</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../secure_crafting_table/">Secure Crafting Table</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../secure_recipe_book/">Secure Recipe Book</a>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">Lockdown Wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Devices</li>
+      <li class="breadcrumb-item active">Defense Drone</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="defense-drone">Defense Drone</h1>
+<p><img alt="Defense drone" src="../item/drone.png" /></p>
+<p>Defense drone behavior is divided into four distinct states:</p>
+<ul>
+<li>Patrolling</li>
+<li>Investigating</li>
+<li>Pursuing</li>
+<li>Attacking</li>
+</ul>
+<p>In the "patrolling" state, drones will randomly navigate to points around their home position.  If the drone detects
+anomalous activity—either an unknown entity within its line-of-sight, or fast motion—it enters the "investigating" state.</p>
+<p>In the "investigating" state, drones will navigate towards the position where they last detected the suspicious activity.
+Once reaching the point of interest, the drone will survey the area before returning to its "patrolling" state.  In this
+state, the drone continuously assesses nearby entities to determine if they're hostile.  Entities approved by a drone do
+not trigger it to investigate or attack, though approval will expire after a while.  However, if the drone detects an 
+entity it deems to be hostile, it'll either enter the "pursuing" state, or the "attacking" state if it's close enough.</p>
+<p>In the "pursuing" state, a drone will navigate towards its target until it's close enough to enter the "attacking" state.
+During the "attacking" state, the drone repeatedly fires its laser until the enemy is either terminated or gets out of
+range.</p>
+<p><img alt="Defense drone attacking its target" src="../misc/drone-attacking.png" /></p>
+<p>With ten health points and five damage per hit, drones are a weaker but mobile alternative to <a href="../turret/">turrets</a>.
+Like <a href="../turret/">turrets</a>, drones slowly regenerate health over time.</p>
+<h2 id="encoding">Encoding</h2>
+<p>Drones can optionally be given a code using the <a href="../encoding_station/">encoder</a>.  Drones given a code will attack other 
+drones, <a href="../turret/">turrets</a>, and players with a non-matching code.  A player's "code" is simply that of their last held 
+<a href="../keycard/">keycard</a>.  Once approved, an entity will not be targeted again until their approval expires, even if they 
+hold a non-matching <a href="../keycard/">keycard</a>.</p>
+<h2 id="crafting">Crafting</h2>
+<p><img alt="Recipe for the defense drone" src="../recipe/drone.png" /></p>
+<h2 id="pre-r3-behavior">Pre-R3 Behavior</h2>
+<p>Prior to release 3, drones would remain stationary unless a viable target entered within fifteen blocks.  Drones would
+then pursue the closest target until they were within five blocks, at which point the drone would begin firing with its
+laser.</p>
+<p>Since the ability for drones to "approve" entities did not exist prior to R3, any player that switched to a non-matching
+<a href="../keycard/">keycard</a> would be immediately attacked.</p>
+<h2 id="unusedoperator-only-features">Unused/Operator-Only Features</h2>
+<h3 id="dyeable-drones">Dyeable Drones</h3>
+<p>The outer shell and glow layers can be individually colored using commands.  For example, the following command gives the
+nearest drone a blue shell and yellow lights:</p>
+<pre><code class="language-mcfunction">/data modify entity @n[tag=lockdown.drone,tag=lockdown.block.display] item.components.&quot;minecraft:custom_model_data&quot;.colors set value [[0.4, 0.4, 0.8], [1.0, 1.0, 0.25]]
+</code></pre>
+<p>These colors persist even when the drone is broken and replaced.</p>
+<p>Unfortunately, this feature did not make it to survival-accessibility in R3.  Instead, it is planned for R4 alongside a few
+other drone customization features.</p>
+<h3 id="berzerker-drones">Berzerker Drones</h3>
+<p>Giving the "lockdown.behavior.code_hostile" tag to an entity allows it to be targeted by a drone with a code, even if the
+entity is not normally targetable.  For example, the following command makes the nearest villager targetable:</p>
+<pre><code class="language-mcfunction">/tag @n[type=minecraft:villager] add lockdown.behavior.code_hostile
+</code></pre>
+<h2 id="history">History</h2>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Changes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1</td>
+<td>• Added drones</td>
+</tr>
+<tr>
+<td>R2</td>
+<td>• Added drone upgrades</td>
+</tr>
+<tr>
+<td>R3</td>
+<td>• Overhauled drones, with new AI, model, and sound effects<br>• Tweaked recipe</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../big_button/" class="btn btn-neutral float-left" title="Big Button"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../turret/" class="btn btn-neutral float-right" title="Defense Turret">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../big_button/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../turret/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
