@@ -11,7 +11,7 @@ Once assembled, the cannon can seat up to one player at a time by right-clicking
 ![Charged cannon with a translucent barrel](misc/translucent_cannon.png)
 
 Holding the "jump" key (typically "space") charges the cannon, filling a meter at the top of the screen at a rate of 1 charge per tick.  The pilot may release the charge key at any time to fire the cannon.  However, firing with a higher charge increases the damage output and area of effect.  The output damage and radius is given by:
-```
+```math
 Beam Radius = Charge * 0.25
 Beam Damage = Charge * 0.75
 ```
