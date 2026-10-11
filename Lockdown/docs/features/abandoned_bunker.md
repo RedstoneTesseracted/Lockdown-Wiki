@@ -6,7 +6,7 @@ Abandoned bunkers are an uncommon structure that generate partially buried.  The
 
 Bunkers are the only location where [suspicious thumb drives](suspicious_thumb_drive.md) are found.  All abandoned bunkers generate with exactly one [suspicious thumb drive](suspicious_thumb_drive.md) per structure.
 
-In addition to [suspicious thumb drives](suspicious_thumb_drive.md), bunkers contain several other devices added by Lockdown, including [alarms](alarms.md), [drones](drones.md), [turrets](turrets.md), and more.  Additionally, [drones](drones.md) and [turrets](turrets.md) found inside the bunker will invariably be hostile to any intruding players.
+In addition to [suspicious thumb drives](suspicious_thumb_drive.md), bunkers contain several other devices added by Lockdown, including [alarms](alarm_light.md), [drones](drone.md), [turrets](turret.md), and more.  Additionally, [drones](drone.md) and [turrets](turret.md) found inside the bunker will invariably be hostile to any intruding players.
 
 ![Abandoned bunker atrium](misc/abandoned_bunker_interior.png)
 
