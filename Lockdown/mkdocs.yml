@@ -2,6 +2,7 @@ site_name: Lockdown Wiki
 nav:
   - Home: index.md
   - Devices:
+    - features/air_defense_cannon.md
     - features/alarm_light.md
     - features/big_button.md
     - features/drone.md
@@ -20,10 +21,16 @@ nav:
     - features/durability_upgrade.md
     - features/flamethrower_upgrade.md
     - features/range_upgrade.md
+    - features/suspicious_thumb_drive.md
     - features/key.md
     - features/legacy_wand.md
+    - features/laser_blaster.md
+    - features/redstone_energy_cell.md
+    - features/spray_can.md
   - Mechanics:
     - mechanics/channels.md
+  - Structures:
+    - features/abandoned_bunker.md
   - Removed Features:
     - features/control_tower.md
     - features/control_tower_upgrade.md
