@@ -16,6 +16,7 @@ In addition to [suspicious thumb drives](suspicious_thumb_drive.md), bunkers con
 Abandoned bunkers are found in the same biomes as [trail ruins](https://minecraft.wiki/w/Trail_Ruins), i.e. jungles, old growth birch forests, old growth pine taigas, old growth spruce taigas, snowy taigas, and taigas.
 
 All abandoned bunkers consist of the following rooms:
+
 * Entrance
 * Atrium
 * Robotics lab
@@ -23,6 +24,7 @@ All abandoned bunkers consist of the following rooms:
 * Barracks
 
 Several of these rooms have multiple variants:
+
 * Atrium
     * Regular
     * Collapsed
